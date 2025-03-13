@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Explore my recent work and projects</p>
+            </div>
+        </section>
+
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ux">UX/UI Design</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <div class="project-item" data-category="web">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project1.jpg" alt="E-commerce Website">
+                                <div class="project-overlay">
+                                    <a href="#project1" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>E-commerce Website</h3>
+                                <p>A fully responsive e-commerce platform with shopping cart functionality.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-item" data-category="ux">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project2.jpg" alt="Portfolio Template">
+                                <div class="project-overlay">
+                                    <a href="#project2" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Portfolio Template</h3>
+                                <p>A customizable portfolio template for creative professionals.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-item" data-category="mobile">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project3.jpg" alt="Fitness App">
+                                <div class="project-overlay">
+                                    <a href="#project3" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Fitness App</h3>
+                                <p>A mobile app for tracking workouts and fitness progress.</p>
+                                <div class="project-tags">
+                                    <span>React Native</span>
+                                    <span>Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-item" data-category="web">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project4.jpg" alt="Blog Platform">
+                                <div class="project-overlay">
+                                    <a href="#project4" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Blog Platform</h3>
+                                <p>A content management system for bloggers with a user-friendly interface.</p>
+                                <div class="project-tags">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="project-item" data-category="ux">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project5.jpg" alt="Travel Agency Website">
+                                <div class="project-overlay">
+                                    <a href="#project5" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Travel Agency Website</h3>
+                                <p>A website for a travel agency with booking functionality.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>PHP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="project-item" data-category="mobile">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="img/project6.jpg" alt="Food Delivery App">
+                                <div class="project-overlay">
+                                    <a href="#project6" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Food Delivery App</h3>
+                                <p>A mobile application for ordering food from local restaurants.</p>
+                                <div class="project-tags">
+                                    <span>Flutter</span>
+                                    <span>Firebase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal Popups -->
+        <div class="project-modals">
+            <!-- Project 1 Modal -->
+            <div id="project1" class="project-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>E-commerce Website</h2>
+                        <a href="#" class="close-modal">&times;</a>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-slider">
+                            <img src="img/project1.jpg" alt="E-commerce Website">
+                            <img src="img/project1-2.jpg" alt="E-commerce Website">
+                            <img src="img/project1-3.jpg" alt="E-commerce Website">
+                        </div>
+                        <div class="modal-details">
+                            <div class="project-info">
+                                <h3>Project Overview</h3>
+                                <p>A fully-functional e-commerce website designed for a fashion retailer. The website features a responsive design, product filtering, shopping cart functionality, and secure checkout process.</p>
+                                
+                                <h3>Technologies Used</h3>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                                
+                                <h3>Key Features</h3>
+                                <ul>
+                                    <li>Responsive design for all devices</li>
+                                    <li>Product filtering and search functionality</li>
+                                    <li>Shopping cart and wishlist</li>
+                                    <li>User authentication and profiles</li>
+                                    <li>Secure payment integration</li>
+                                </ul>
+                                
+                                <div class="project-links">
+                                    <a href="#" class="btn primary-btn" target="_blank">Live Demo</a>
+                                    <a href="#" class="btn secondary-btn" target="_blank">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more project modals as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Portfolio</h2>
+                    <p>Creating digital experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <a href="#top" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html> 
